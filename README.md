@@ -32,7 +32,7 @@ The variables that were removed from the input data were the columns ‘EIN’ a
 
 The first model I had two hidden layers with ten hidden neurons in the first layer and five hidden neurons in the second layer which produced 6781 parameters and epochs were set to 100.
 ![alt text](<Screenshot/Screenshot 2024-08-29 at 11.27.07 AM.png>)
-There were 4320 parameters created by the 2 layers in the training model.
+There were 6781 parameters created by the 2 layers in the training model.
 ![alt text](<Screenshot/Screenshot 2024-08-29 at 11.29.18 AM.png>)
 
 * Were you able to achieve the target model performance?
@@ -42,7 +42,7 @@ No, The first attempt was about 73% accurate but was aiming for at least 75% acc
 
 * What steps did you take in your attempts to increase model performance?
 
-Using multiple layers helps to train the machine learning model based on filtering the data. Adding the name column into the dataset greatly increased the accuracy of the model.  Classification counts were set to 30 and a third hidden layer was added.  The parameters increased to 14370 and epochs were adjusted to 50.  The layers were adjusted as follows:
+Using multiple layers helps to train the machine learning model based on filtering the data. Adding the name column into the dataset greatly increased the accuracy of the model.  Classification counts were set to 30 and a third hidden layer was added.  The parameters increased to 15557 and epochs were adjusted to 50.  The layers were adjusted as follows:
 ![alt text](<Screenshot/Screenshot 2024-08-29 at 11.35.46 AM.png>)
 ![alt text](<Screenshot/Screenshot 2024-08-29 at 11.38.50 AM.png>)
 
